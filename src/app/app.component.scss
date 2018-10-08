@@ -1,1 +1,9 @@
 @import '../sass/stylesheets/variables';
+
+.logo {
+	width:100px;
+}
+
+.fill-empty-space {
+	flex: 1 1 auto;
+}
