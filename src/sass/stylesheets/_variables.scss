@@ -1,1 +1,34 @@
-$navbar-height: 150px
+//[Table of contents]
+
+//1. Body
+//2. Header / #header
+//3. Navigation / #navbar
+//4. Content / #content
+//5. Left column / #leftcolumn
+//6. Right column / #rightcolumn
+//7. Sidebar / #sidebar
+//8. RSS / #rss
+//9. Search / #search
+//10. Boxes / .box
+//11. Sideblog / #sideblog
+//12. Advertisements / .ads
+//13. Footer / #footer$evs_navbar_bg: #1a2930;
+
+//1. Body *******************
+body,
+    h1, h2, h3,
+    p, ul, li,
+    form {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+//2. Header *******************
+
+//3. Navbar *******************
+$evs_navbar_bg: #1a2930; //dark blue
+$imgdir: '/../../assets/images/'; //replace with styling
+
+.evs_navbar {
+	background: $evs_navbar_bg;
+}
